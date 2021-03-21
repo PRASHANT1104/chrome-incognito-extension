@@ -1,6 +1,6 @@
 {
   "name": "Chrome Incognito extension",
-  "description": "Create new incognito tab always from an existing tab",
+  "description": "Create new incognito tab always in an existing incognito window",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
