@@ -1,0 +1,19 @@
+{
+  "name": "Chrome Incognito extension",
+  "description": "Create new incognito tab always from an existing tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"],
+  "commands": {
+    "toggle-feature-foo": {
+      "suggested_key": {
+        "default": "Ctrl+J",
+        "mac": "Command+J"
+      },
+      "description": "Toggle feature foo"
+    }
+  }
+}
